@@ -1,0 +1,21 @@
+<html>
+    <body>
+        <b>Want to know how old you are in dog years?</b>
+        <form method="post">
+            <script language="LiveScript">
+                function fido (form){
+                    form.dogyears.value = form.humanyears.value * 7
+                }
+            </script>
+            <table>
+                <tr>
+                    <td>Enter your age:</td>
+                    <td><input type="text" name="humanyears" size='15'>
+                    </td>
+                </tr>
+                    <tr><td><input TYPE="button" value="Calculate" onclick="fido(this.form)"></td></tr>
+                        <tr><td>Your age in Dog Years is:</td><td><INPUT type="text" name="dogyears" size='15'></td></tr>
+            </table>
+        </form>
+    </body>
+</html>
